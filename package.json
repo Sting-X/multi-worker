@@ -1,0 +1,28 @@
+{
+  "name": "@mfelibs/multiWorker",
+  "version": "1.0.5",
+  "description": "",
+  "main": "lib/index.cjs.js",
+  "module": "src/index.js",
+  "scripts": {
+    "dev": "marax dev",
+    "build": "marax build",
+    "build:demo": "marax build",
+    "next": "git add . && git commit -m 'next' && npm version prerelease && cnpm publish --tag next",
+    "patch": "git add . && git commit -m 'patch' && npm version patch && cnpm publish",
+    "postpublish": "node ./node_modules/webpack-marauder/hook/postpublish.js"
+  },
+  "devDependencies": {
+    "webpack-marauder": "^1.9.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT",
+  "author": "hongxu <hongxu1@staff.weibo.com>",
+  "repository": "ssh://git@gitlab.weibo.cn:2222/SINA_MFE_COMPONENTS/multiWorker.git",
+  "dependencies": {
+    "worker-loader": "^2.0.0"
+  }
+}
