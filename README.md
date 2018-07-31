@@ -1,4 +1,4 @@
-# @mfelibs/multiWorker
+# multi-worker
 
 
 
