@@ -1,5 +1,5 @@
 {
-  "name": "@mfelibs/multiWorker",
+  "name": "multi-worker",
   "version": "1.0.5",
   "description": "",
   "main": "lib/index.cjs.js",
